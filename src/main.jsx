@@ -1,10 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from 'react'; // Importa la libreria React
+import ReactDOM from 'react-dom'; // Importa il modulo ReactDOM per manipolare il DOM
+import App from './App'; // Importa il componente principale App
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+// Renderizza il componente App all'interno dell'elemento con id 'root' nel DOM
+ReactDOM.render(
+  <React.StrictMode> 
+    <App /> 
+  </React.StrictMode>,
+  document.getElementById('root')
+);

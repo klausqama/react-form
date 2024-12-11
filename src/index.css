@@ -1,74 +1,36 @@
-:root {
-	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-
+/* Imposta il margine e il padding a 0 per tutti gli elementi */
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-}
-
-ul,
-ol {
-	list-style: none;
-}
-
-button {
-	border: none;
-	background-color: transparent;
-}
-
-a {
-	color: currentColor;
-	text-decoration: inherit;
-}
-
-img {
-	max-width: 100%;
-}
-
-body {
-	background-color: #efefef;
-}
-
-.inline-form {
-	display: flex;
-	gap: 1rem;
-	height: 2rem;
-}
-
-input {
-	height: 2rem;
-	padding: 0 1rem;
-	border-radius: 0.5rem;
-	border: none;
-}
-
-.container {
-	max-width: 1024px;
-	margin: 0 auto;
-	padding: 1.5rem;
-}
-
-.row {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 -0.75rem;
-}
-
-.row > * {
-	padding: 0 0.75rem;
-	width: 100%;
-}
-
-.col-12 {
-	width: 100%;
-}
-
-.col-6 {
-	width: 50%;
-}
-
-.col-4 {
-	width: calc(4 * 100% / 12);
-}
+	box-sizing: border-box; /* Imposta il box-sizing a border-box per tutti gli elementi */
+  }
+  
+  /* Imposta lo stile di base per il body */
+  body {
+	font-family: Arial, sans-serif; /* Imposta il font di base */
+	background-color: #f0f0f0; /* Imposta il colore di sfondo */
+	color: #333; /* Imposta il colore del testo */
+	line-height: 1.6; /* Imposta l'altezza della linea */
+  }
+  
+  /* Stile per i titoli h1 */
+  h1 {
+	font-size: 2em; /* Imposta la dimensione del font */
+	margin-bottom: 0.5em; /* Imposta il margine inferiore */
+  }
+  
+  /* Stile per i paragrafi */
+  p {
+	margin-bottom: 1em; /* Imposta il margine inferiore */
+  }
+  
+  /* Stile per i link */
+  a {
+	color: #007bff; /* Imposta il colore del testo */
+	text-decoration: none; /* Rimuove la sottolineatura */
+  }
+  
+  /* Stile per i link al passaggio del mouse */
+  a:hover {
+	text-decoration: underline; /* Aggiunge la sottolineatura al passaggio del mouse */
+  }
